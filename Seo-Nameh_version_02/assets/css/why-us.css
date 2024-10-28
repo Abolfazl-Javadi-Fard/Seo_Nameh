@@ -1,0 +1,49 @@
+.why_us {
+    padding: 40px 0px;
+  
+    background-color: #f5f6f9;
+  }
+  .why_title p,
+  .btn-check:focus + .btn-primary,
+  .btn-primary:focus,
+  .faq_content .btn-primary {
+    color: rgb(0, 0, 0);
+  }
+  .why_reason i,
+  .faq_content .btn-primary {
+    transition: all ease 200ms;
+  }
+  .faq_content .btn-primary {
+    background-color: #ffffff;
+    border-color: transparent;
+    transition: all ease 200ms;
+  }
+  .why_reason {
+    margin-bottom: 10px;
+  }
+  .faq_content .btn {
+    border-radius: 0px;
+    width: 100%;
+    text-align: start;
+  }
+  .why_title strong {
+    font-size: 1.5rem;
+  }
+  .why_title h2 {
+    font-size: 1.6rem;
+  }
+  .btn-primary:hover {
+    color: #439dfb;
+  }
+  .btn-check:focus + .btn-primary,
+  .btn-primary:focus {
+    box-shadow: none;
+    background-color: #ffffff;
+  }
+  .why_reason i {
+    margin-right: 5px;
+  }
+  .why_reason:hover i {
+    transform: rotateZ(-90deg);
+  }
+  

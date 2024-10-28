@@ -1,0 +1,39 @@
+.modal_service,
+.modal_service1,
+.modal_service2,
+.modal_service3 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1060;
+  display: none;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  outline: 0;
+  background-color: rgba(0, 0, 0, 0.445);
+  animation: modal_apear 500ms ease-in 0s 1 normal none;
+}
+.modal_paper {
+  border-radius: 10px;
+  padding: 20px 10px;
+  margin: 200px auto;
+  background-color: hsl(198, 100%, 91%);
+}
+.remove-scrolling {
+  height: 100%;
+  overflow: hidden;
+}
+
+@keyframes modal_apear {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}

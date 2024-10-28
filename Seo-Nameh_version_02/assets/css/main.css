@@ -1,0 +1,126 @@
+@font-face {
+    font-family: samim;
+    src: url(../font/Samim-Medium-FD.woff2);
+  }
+  @font-face {
+    font-family: samim_thin;
+    src: url(../font/Samim-FD.woff2);
+  }
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: samim;
+  }
+  a {
+    text-decoration: none;
+  }
+  .header,
+  .slider {
+    background-color: #37517e;
+    font-family: samim;
+  }
+  .bd {
+    border: 1px solid #a01616;
+  }
+  li {
+    list-style: none;
+  }
+  .navbar-light .navbar-nav .nav-link {
+    color: #cecece;
+  }
+  .navbar-light .navbar-nav .show > .nav-link,
+  .navbar-light .navbar-nav .nav-link.active {
+    color: #58a9ee;
+  }
+  .navbar-light .navbar-brand {
+    transition: all ease 150ms;
+  }
+  .navbar-light .navbar-brand:hover {
+    color: white;
+  }
+  .offcanvas-end {
+    width: 250px;
+  }
+  .navbar-light .navbar-toggler {
+    border: none;
+  }
+  .btn-primary:hover {
+    background-color: transparent;
+  }
+  .btn-check:checked + .btn-primary:focus,
+  .btn-check:active + .btn-primary:focus,
+  .btn-primary:active:focus,
+  .btn-primary.active:focus,
+  .show > .btn-primary.dropdown-toggle:focus {
+    box-shadow: none;
+  }
+  .btn-check:checked + .btn-primary,
+  .btn-check:active + .btn-primary,
+  .btn-primary:active,
+  .btn-primary.active,
+  .show > .btn-primary.dropdown-toggle,
+  .btn-check:focus + .btn-primary,
+  .btn-primary:focus,
+  .btn-primary:hover {
+    background-color: transparent;
+  }
+  .btn-check:focus + .btn-primary,
+  .btn-primary:focus {
+    background-color: transparent;
+  }
+  .navbar-light .navbar-nav .nav-link:hover,
+  .navbar-light .navbar-nav .nav-link:hover,
+  .navbar-light .navbar-nav .show > .nav-link,
+  .navbar-light .navbar-nav .nav-link.active {
+    color: #6db4ff;
+  }
+  .navbar-nav .nav-item .nav-link,
+  .navbar-light .navbar-toggler,
+  .navbar-light .navbar-brand,
+  .navbar-light .navbar-brand:hover,
+  .navbar-light .navbar-nav .nav-link {
+    color: #dfdfdf;
+  }
+  
+  .navbar-toggler:focus {
+    box-shadow: none;
+  }
+  .log_in {
+    display: inline;
+    margin-left: 5px;
+  }
+  .brand {
+    font-size: 1.6rem;
+    margin-left: 30px;
+  }
+  .fa-user {
+    transition: color ease 30ms;
+  }
+  .bars_handler,
+  .fa-user {
+    transition: all ease 400ms;
+  }
+  
+  @media screen and (max-width: 767px) {
+    .navbar-light .navbar-brand,
+    .offcanvas-title {
+      font-size: 1.4rem;
+    }
+    .navbar-light .navbar-nav .nav-link,
+    .navbar-light .navbar-nav .show > .nav-link,
+    .navbar-light .navbar-nav .nav-link.active {
+      color: #9c9c9c;
+      border-radius: 6px;
+    }
+  
+    .navbar-light .navbar-nav .nav-link:hover {
+      color: #000;
+      background-color: rgb(216, 216, 216);
+    }
+    .log_in {
+      display: none;
+      margin-left: 0px;
+    }
+  }
+  

@@ -1,0 +1,117 @@
+.portfolio{
+    background-color: white;
+    padding: 40px 0px;
+    position: relative;
+}
+.portfolio_header h2{
+    font-size: 2rem;
+    font-weight: 700;
+    display: block;
+    width: 160px;
+    position: relative;
+}
+.portfolio_header h2::before {
+    position: absolute;
+    content: "";
+	width: 80px;
+	height: 4px;
+	top: 50px;
+    right: 25%;
+    background-color:#47B2E4;
+}
+.portfolio_header h2::after {
+    position: absolute;
+    content: "";
+	width: 200px;
+	height: 1px;
+	background-color: rgb(153, 153, 153);
+	top: 52px;
+    left: 5%;
+    right:-10% ;
+}
+.portfolio_header p{
+    width: auto;
+    color: rgb(17, 17, 17);
+    margin: 40px 0px 0px 0px;
+}
+.portfolio_filter{
+    margin: 50px 0px 30px 0px;
+}
+.portfolio_filter ul li:nth-child(1) a{
+    display: inline-block;
+    font-family: samim;
+    padding: 0px 20px;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 50px;
+    color: white;
+    background-color: #47B2E4;
+    font-size: 1.2rem;
+    margin: 0px 3px;
+}
+.portfolio_filter ul li:not(:first-child) a{
+    display: inline-block;
+    font-family: samim;
+    padding: 0px 20px;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 50px;
+    color: rgb(20, 20, 20);
+    font-size: 1.2rem;
+    margin: 0px 3px;
+    transition: all ease 200ms;
+}
+.portfolio_filter ul li:not(:first-child) a:hover{
+    background-color: #47B2E4;
+    color: white;
+}
+.portfolio_gallery{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 1110px;
+}
+.gallery{
+    width: 33%;
+    
+}
+.gallery img{
+    display: block;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+@media screen and (max-width:1200px) {
+    .portfolio_gallery{
+        height: 910px;
+    }
+    .gallery{
+        width: 33%;
+    }
+}
+@media screen and (max-width:1024px) {
+    .portfolio_gallery{
+        height: 910px;
+    }
+    .gallery{
+        width: 33%;
+    }
+}
+@media screen and (max-width:992px){
+    .portfolio_gallery{
+        height: 1500px;
+    }
+    .gallery{
+        width: 48%;
+    }
+}
+@media screen and (max-width:768px){
+    .portfolio_gallery{
+        height: auto;
+    }
+    .gallery{
+        width: 100%;
+    }
+}

@@ -1,0 +1,56 @@
+  .carousel-control-prev {
+    left: -10px;
+  }
+  .carousel-control-next {
+    right: -10px;
+  }
+  .text_slider h2,
+  .text_slider p,
+  .text_slider a {
+    color: rgb(185, 185, 185);
+  }
+  .text_slider a:hover {
+    color: #59adf2;
+  }
+  .text_slider a {
+    transition: all ease 200ms;
+  }
+  .carousel-inner {
+    height: 550px;
+  }
+  .text_slider p,
+  .text_slider a {
+    font-size: 1.2rem;
+  }
+  .carousel-item img{
+    width: 70%;
+  }
+  @media screen and (max-width: 767px) {
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+      width: 1.5rem;
+      height: 1.5rem;
+    }
+    .text p,
+    a {
+      font-size: 1rem;
+    }
+    .carousel-inner {
+      height: 450px;
+    }
+  }
+  @media screen and (max-width: 425px) {
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+      width: 1.5rem;
+      height: 1.5rem;
+    }
+    .text p,
+    a {
+      font-size: 1rem;
+    }
+    .carousel-inner {
+      height: 300px;
+    }
+  }
+  

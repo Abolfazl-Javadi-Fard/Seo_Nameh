@@ -1,0 +1,113 @@
+.Pricing {
+    background-color: white;
+    padding: 40px 0px;
+    position: relative;
+  }
+  .Pricing_header h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    display: block;
+    width: 177px;
+    position: relative;
+  }
+  .Pricing_header h2::before {
+    position: absolute;
+    content: "";
+    width: 80px;
+    height: 4px;
+    top: 50px;
+    right: 25%;
+    background-color: #47b2e4;
+  }
+  .Pricing_header h2::after {
+    position: absolute;
+    content: "";
+    width: 200px;
+    height: 1px;
+    background-color: rgb(153, 153, 153);
+    top: 52px;
+    right: -8%;
+  }
+  .Pricing_header p {
+    width: auto;
+    color: rgb(17, 17, 17);
+    margin: 40px 0px 0px 0px;
+  }
+  .Pricing_item {
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px,
+      rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px,
+      rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+  }
+  .Pricing_item .header {
+    background-color: rgb(255, 255, 255);
+  }
+  .Pricing_item .header h3 {
+    font-size: 1.5rem;
+  }
+  .Pricing_item .header h4 span {
+    font-size: 2rem;
+  }
+  .Pricing_item .header h4 span:not(:nth-child(n + 3)) {
+    color: #47b2e4;
+    font-size: 2.5rem;
+    vertical-align: 5px;
+  }
+  .Pricing_item .header h4 span:not(:nth-child(n + 2)) {
+    color: #47b2e4;
+    font-size: 2.5rem;
+  }
+  .Pricing_item .header h4 span:nth-child(n + 3) {
+    color: #303030;
+    font-size: 0.75rem;
+  }
+  .Pricing_item ul li {
+    padding: 10px 0px;
+    font-size: 1rem;
+  }
+  .Pricing_item ul li i {
+    font-size: 1.5rem;
+    color: #47b2e4;
+  }
+  .free_price_item ul li:nth-last-child(2),
+  .free_price_item ul li:last-child {
+    text-decoration: line-through;
+    color: #a1a1a1;
+  }
+  .free_price_item ul li:nth-last-child(2) i,
+  .free_price_item ul li:last-child i {
+    text-decoration: line-through;
+    color: #a1a1a1;
+  }
+  
+  .Pricing_item a {
+    display: inline-block;
+    font-weight: bold;
+    color: #47b2e4;
+    width: 135px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    background-color: white;
+    border: 2px solid #47b2e4;
+    border-radius: 80px;
+    transition: all ease 300ms;
+  }
+  .Pricing_item a:hover {
+    background-color: #47b2e4;
+    color: white;
+  }
+  .Pricing .row div:nth-child(2) a {
+    background-color: #47b2e4;
+    color: white;
+  }
+  
+  .Pricing .row div:nth-child(2)::before {
+    content: "";
+    display: block;
+    float: left;
+    width: 100%;
+    border-radius: 5px 5px 0px 0px;
+    height: 4px;
+    background-color: #47b2e4;
+  }
+  
